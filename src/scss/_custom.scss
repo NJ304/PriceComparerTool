@@ -1,0 +1,56 @@
+.new {
+  --cui-gutter-x: 0.2rem;
+}
+
+.app {
+  background-color: white;
+  // font-family: sans-serif;
+  font-size: 12px;
+  // align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 200vh;
+  // font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+.checked-item,
+.not-checked-item {
+  margin-left: 10px;
+}
+//   .checked-item {
+//     text-decoration: line-through;
+//   }
+.rounded-corner,
+.rightside-buttons {
+  border-radius: 50px;
+}
+.right-widget {
+  padding: 5px;
+  padding-top: 20px;
+}
+.right-side-form {
+  border-top: 1px solid #000;
+}
+.pull-right {
+  float: right;
+}
+.hot_devices .card-footer {
+  background-color: #5ec495;
+  padding: 5%;
+}
+.gray_color {
+  color: gray;
+}
+.chart_filter_options {
+  font-size: 12px;
+}
